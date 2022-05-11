@@ -1,0 +1,30 @@
+<h3>Create new account</h3>
+<div class="card" style="width: 25rem">
+    <div class="card-body">
+<%= form_for :user, url: '/users', html: {class: "row g-3"} do |t| %>
+<div class="col-md-6">
+          <%= t.text_field :first_name, class: "form-control", placeholder: "First name" %>
+        </div>
+  
+<div class="col-md-6">
+          <%= t.text_field :last_name, class: "form-control", placeholder: "Last name" %>
+        </div>
+      
+<div class="col-12">
+          <%= t.text_field :email, class: "form-control", placeholder: "Email" %>
+        </div>
+<div class="col-12">
+        
+          <%= t.password_field :password, class: "form-control", placeholder: "Password"  %>
+        </div>
+<div class="col-12">
+        
+          <%= t.password_field :password_confirmation, class: "form-control", placeholder: "Password Confirmation"  %>
+        </div>
+<div class="col-12">
+          <%= t.submit "Submit", class: "btn btn-primary" %>
+        </div>
+
+<% end %> 
+</div>
+</div>

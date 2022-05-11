@@ -61,6 +61,41 @@
             <li><%= link_to 'Categories', [:admin, :categories], class: "nav-link" %> </li>
           </ul>
         </li>
+          <li class="navbar-text">
+          <li class="navbar-text">
+          <% if current_user %>
+            Signed in as 
+        </li>
+
+        <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-danger"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+            >
+              <%= current_user.first_name %>
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li class="nav-item">     
+                <%= link_to "Logout", '/logout', class: "nav-link" %>
+              </li>
+            </ul>
+          </li>
+
+        <li class="nav-item">
+          <% else %>
+        <li class="nav-item">
+            <%= link_to 'Login', '/login', class: "nav-link" %> 
+        </li>
+        <li class="nav-item">
+            <%= link_to 'Register', '/register', class: "nav-link" %>
+          <% end %>
+
+        </li>
         <li class="nav-item end-0">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
