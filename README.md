@@ -32,15 +32,15 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-!["Screenshot for Login Page"]
+!["Screenshot for Login Page"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/login-page.jpeg)
 
-!["Screenshot for Register Page"]
+!["Screenshot for Register Page"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/create-account.jpeg)
 
-!["Screenshot for Sold Out"]
+!["Screenshot for Sold Out"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/sold-out.jpeg)
 
-!["Screenshot for Empty Cart"]
+!["Screenshot for Empty Cart"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/empty-cart.jpeg)
 
-!["Screenshot for Admin Dashboard"]
+!["Screenshot for Admin Dashboard"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/admin-dashboard.jpeg)
 
-!["Screenshot for Products Page"]
+!["Screenshot for Products Page"](https://github.com/Saida-Mahmudova/Jungle/blob/master/docs/products-page.jpeg)
 
