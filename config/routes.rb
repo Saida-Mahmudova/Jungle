@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+  get 'static_pages/help'
+  get 'static_pages/faq'
+  get 'static_pages/about', to: 'about#index'
+  root to: 'products#index'
+
+  
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
@@ -6,10 +13,6 @@ Rails.application.routes.draw do
   get '/register' => 'users#new'
   post '/users' => 'users#create'
   
-  get 'static_pages/help'
-  get 'static_pages/faq'
-  get 'static_pages/about', to: 'about#index'
-  root to: 'products#index'
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]

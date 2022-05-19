@@ -29,3 +29,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
+!["Screenshot for Login Page"]
+
+!["Screenshot for Register Page"]
+
+!["Screenshot for Sold Out"]
+
+!["Screenshot for Empty Cart"]
+
+!["Screenshot for Admin Dashboard"]
+
+!["Screenshot for Products Page"]
+

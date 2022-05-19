@@ -1,8 +1,9 @@
-<h3>Login to existing account</h3>
-
+<header class="page-header">
+<h2>Login to existing account</h2>
+</header>
 <div class="card" style="width: 25rem">
 <div class="card-body">
-<%= form_for :user, url: '/users', html: {class: "row g-3"} do |t| %>
+<%= form_for :user, url: '/login', html: {class: "row g-3"} do |t| %>
         <div class="col-md-6">
           <%= t.text_field :email, class: "form-control", placeholder: "Enter your email" %>
 
